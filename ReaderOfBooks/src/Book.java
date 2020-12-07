@@ -138,8 +138,8 @@ public class Book {
 				} // end while
 				fileScan.close();
 			} // end try
-			catch (FileNotFoundException e) // handle error
-			{
+			catch (FileNotFoundException e) {
+				System.out.println("File not found!");
 			} // end catch
 
 		} else {
